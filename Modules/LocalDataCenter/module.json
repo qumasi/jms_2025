@@ -1,0 +1,11 @@
+{
+    "name": "LocalDataCenter",
+    "alias": "localdatacenter",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LocalDataCenter\\Providers\\LocalDataCenterServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "LawyerPortal",
+    "alias": "lawyerportal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LawyerPortal\\Providers\\LawyerPortalServiceProvider"
+    ],
+    "files": []
+}

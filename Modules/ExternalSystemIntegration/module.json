@@ -1,0 +1,11 @@
+{
+    "name": "ExternalSystemIntegration",
+    "alias": "externalsystemintegration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ExternalSystemIntegration\\Providers\\ExternalSystemIntegrationServiceProvider"
+    ],
+    "files": []
+}

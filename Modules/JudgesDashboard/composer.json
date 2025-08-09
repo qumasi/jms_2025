@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/judgesdashboard",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\JudgesDashboard\\": "app/",
+            "Modules\\JudgesDashboard\\Database\\Factories\\": "database/factories/",
+            "Modules\\JudgesDashboard\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\JudgesDashboard\\Tests\\": "tests/"
+        }
+    }
+}

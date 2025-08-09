@@ -1,0 +1,11 @@
+{
+    "name": "SecurityRoleManagement",
+    "alias": "securityrolemanagement",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SecurityRoleManagement\\Providers\\SecurityRoleManagementServiceProvider"
+    ],
+    "files": []
+}

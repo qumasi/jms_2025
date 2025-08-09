@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/administrativetools",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\AdministrativeTools\\": "app/",
+            "Modules\\AdministrativeTools\\Database\\Factories\\": "database/factories/",
+            "Modules\\AdministrativeTools\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\AdministrativeTools\\Tests\\": "tests/"
+        }
+    }
+}

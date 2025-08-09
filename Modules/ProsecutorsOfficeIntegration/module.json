@@ -1,0 +1,11 @@
+{
+    "name": "ProsecutorsOfficeIntegration",
+    "alias": "prosecutorsofficeintegration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\ProsecutorsOfficeIntegration\\Providers\\ProsecutorsOfficeIntegrationServiceProvider"
+    ],
+    "files": []
+}

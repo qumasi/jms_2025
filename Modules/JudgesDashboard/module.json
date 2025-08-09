@@ -1,0 +1,11 @@
+{
+    "name": "JudgesDashboard",
+    "alias": "judgesdashboard",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\JudgesDashboard\\Providers\\JudgesDashboardServiceProvider"
+    ],
+    "files": []
+}

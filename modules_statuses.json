@@ -1,0 +1,16 @@
+{
+    "CaseManagement": true,
+    "DocumentManagement": true,
+    "CourtroomScheduling": true,
+    "LitigantPortal": true,
+    "LawyerPortal": true,
+    "JudgesDashboard": true,
+    "AdministrativeTools": true,
+    "ReportingAnalytics": true,
+    "SearchRetrieval": true,
+    "ExternalSystemIntegration": true,
+    "SecurityRoleManagement": true,
+    "LocalDataCenter": true,
+    "ProsecutorsOfficeIntegration": true,
+    "PoliceDepartmentIntegration": true
+}

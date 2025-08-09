@@ -1,0 +1,11 @@
+{
+    "name": "PoliceDepartmentIntegration",
+    "alias": "policedepartmentintegration",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\PoliceDepartmentIntegration\\Providers\\PoliceDepartmentIntegrationServiceProvider"
+    ],
+    "files": []
+}

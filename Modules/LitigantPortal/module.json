@@ -1,0 +1,11 @@
+{
+    "name": "LitigantPortal",
+    "alias": "litigantportal",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\LitigantPortal\\Providers\\LitigantPortalServiceProvider"
+    ],
+    "files": []
+}

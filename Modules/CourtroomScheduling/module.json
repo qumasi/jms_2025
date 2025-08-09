@@ -1,0 +1,11 @@
+{
+    "name": "CourtroomScheduling",
+    "alias": "courtroomscheduling",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\CourtroomScheduling\\Providers\\CourtroomSchedulingServiceProvider"
+    ],
+    "files": []
+}

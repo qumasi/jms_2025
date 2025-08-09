@@ -1,0 +1,11 @@
+{
+    "name": "AdministrativeTools",
+    "alias": "administrativetools",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AdministrativeTools\\Providers\\AdministrativeToolsServiceProvider"
+    ],
+    "files": []
+}

@@ -1,0 +1,11 @@
+{
+    "name": "SearchRetrieval",
+    "alias": "searchretrieval",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\SearchRetrieval\\Providers\\SearchRetrievalServiceProvider"
+    ],
+    "files": []
+}

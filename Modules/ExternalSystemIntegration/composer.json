@@ -1,0 +1,30 @@
+{
+    "name": "nwidart/externalsystemintegration",
+    "description": "",
+    "authors": [
+        {
+            "name": "Nicolas Widart",
+            "email": "n.widart@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\ExternalSystemIntegration\\": "app/",
+            "Modules\\ExternalSystemIntegration\\Database\\Factories\\": "database/factories/",
+            "Modules\\ExternalSystemIntegration\\Database\\Seeders\\": "database/seeders/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Modules\\ExternalSystemIntegration\\Tests\\": "tests/"
+        }
+    }
+}

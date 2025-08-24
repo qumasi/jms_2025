@@ -11,6 +11,7 @@ return new class extends Migration
      */
     public function up(): void
     {
+        // https://judg.moj.gov.ye/
         Schema::create('cases', function (Blueprint $table) {
             $table->id();
             // start date

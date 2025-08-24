@@ -12,6 +12,7 @@ return new class extends Migration
     public function up(): void
     {
         // https://judg.moj.gov.ye/
+        // new comment
         Schema::create('complaints', function (Blueprint $table) {
             $table->id();
             // موضوع الشكوى

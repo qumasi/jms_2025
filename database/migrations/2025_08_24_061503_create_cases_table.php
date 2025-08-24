@@ -24,7 +24,8 @@ return new class extends Migration
             $table->string('court_name');
             // موضوع الدعوى
             $table->string('case_subject');
-            // 
+            // وقائع الدعوى
+            $table->text('case_details');
             $table->timestamps();
         });
     }

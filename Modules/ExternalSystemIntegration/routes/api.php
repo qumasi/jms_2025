@@ -1,8 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use Modules\ExternalSystemIntegration\Http\Controllers\ExternalSystemIntegrationController;
+use Modules\ExternalSystemIntegration\Http\Controllers\ExternalSystemController;
 
-Route::middleware(['auth:sanctum'])->prefix('v1')->group(function () {
-    Route::apiResource('externalsystemintegrations', ExternalSystemIntegrationController::class)->names('externalsystemintegration');
+
+Route::prefix('external')->group(function() {
+
+    
+    Route::post('/send-case-report', [ExternalSystemController::class, 'sendCaseReport']);
+
+    Route::get('/fetch-external-data', [ExternalSystemController::class, 'fetchExternalData']);
 });

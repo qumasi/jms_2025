@@ -164,6 +164,39 @@
 
         /* allow hiding shadows for dropdowns and accordion in topbar/sidebar */
         .dropdown-menu, .accordion-button { box-shadow: none !important; }
+
+           <style>
+        .sidebar {
+            min-height: calc(100vh - 56px);
+            background-color: #f8f9fa;
+            border-right: 1px solid #dee2e6;
+        }
+        .document-card {
+            transition: transform 0.2s;
+        }
+        .document-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .nav-link {
+            color: #495057;
+            border-radius: 0.25rem;
+        }
+        .nav-link:hover, .nav-link.active {
+            background-color: #e9ecef;
+            color: #0d6efd;
+        }
+        .breadcrumb {
+            background-color: transparent;
+            padding: 0;
+        }
+        .status-badge {
+            font-size: 0.75rem;
+        }
+        .progress {
+            height: 8px;
+        }
+  
     </style>
 </head>
 <body class="font-sans antialiased">

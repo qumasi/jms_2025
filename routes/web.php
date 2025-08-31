@@ -24,6 +24,8 @@ Route::get('/search/document', function () {
 
 use App\Livewire\Counter;
 use App\Livewire\CaseManagment\ManageCase;
+use App\Livewire\DocumentManagment\Upload;
  
 Route::get('/counter', Counter::class);
 Route::get('/manageCase', ManageCase::class);
+Route::get('/document-management/upload', Upload::class);

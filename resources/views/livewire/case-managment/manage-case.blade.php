@@ -1,3 +1,0 @@
-<div>
-   case managment
-</div>

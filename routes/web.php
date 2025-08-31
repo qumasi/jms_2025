@@ -20,3 +20,10 @@ Route::get('/search/document', function () {
     // based on controller
     return view('search-retrival.search-document');
 });
+
+
+use App\Livewire\Counter;
+use App\Livewire\CaseManagment\ManageCase;
+ 
+Route::get('/counter', Counter::class);
+Route::get('/manageCase', ManageCase::class);
